@@ -7,10 +7,9 @@ from load_data import load_train_data, load_test_data
 from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import log_loss, roc_auc_score
 
-//　This is a test.
+# This is a test.
 
 logger = getLogger(__name__)
-
 DIR = 'result_tmp/'
 SAMPLE_SUBMIT_FILE = '../input/sample_submission.csv'
 
